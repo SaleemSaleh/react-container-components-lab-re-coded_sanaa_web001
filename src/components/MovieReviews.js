@@ -1,8 +1,8 @@
 // Code MovieReviews Here
 import React from 'react';
 
-const MovieReviews = ({ reviews }) => {
-return  <div className="review-list">{reviews.map(Review)}</div>;
+const MovieReviews = ({ revs }) => {
+return  <div className="review-list">{revs.map(Review)}</div>;
 }
 
 const Review = ({headline,byline,link,summary_short}) => {
