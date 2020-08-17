@@ -6,7 +6,7 @@ return  <div className="review-list">{reviews.map(Review)}</div>;
 }
 
 const Review = ({headline,byline,link,summary_short}) => {
-  
+
   return (
     <div
       className="review"
